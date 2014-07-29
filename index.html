@@ -1,0 +1,167 @@
+<html lang="en">
+      <head>
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>YCK</title>
+
+         <!--       <link href="inc/css/colorized.css" rel="stylesheet -->
+         <link href="inc/css/fonts.css" rel="stylesheet">
+         <link href="inc/css/bootstrap.css" rel="stylesheet">
+         <link href="inc/css/font-awesome.css" rel="stylesheet">
+         <link href="inc/css/style.css" rel="stylesheet">
+         <script>
+
+            function findNeighborhood(){
+                var city = document.getElementById("city").value;
+                var neighbourhood = document.getElementById("neighborhood").value;
+                
+            }
+         </script>
+      </head>
+      <body>
+      <div class="full-body">
+         <div class="full first-header">
+            <div class="container">
+               <div class="col-md-3">
+                  <h2>Logo</h2>
+               </div>
+               <div class="col-md-6"></div>
+               <div class="col-md-3">
+                  <div class="logo">
+                     <img src="inc/img/logo.png">
+                  </div>
+               </div>
+            </div><!-- /.container -->
+         </div><!-- /.first-header -->
+         <div class="full second-header">
+            <div class="container">
+               <div class="row">
+               <div class="col-md-1"></div>
+                  <ul class="main-navbar col-md-10">
+                     <li class="col-md-4"><a class="active" href="#">Orari i Ujit</a></li>
+                     <li class="col-md-4"><a href="#">Orari i Berllogit</a></li>
+                     <li class="col-md-4"><a href="#">Rekreacion</a></li>
+                  </ul><!-- /.main-navbar -->  
+               <div class="col-md-1"></div> 
+               </div>
+            </div><!-- /.container -->
+         </div><!-- /.second-header -->
+         <div class="container">
+            <div class="col-md-1"></div>
+               <div class="col-md-10 content">
+                  <form>
+                     <div class="col-md-6">
+                        <select id="city" class="form-control">
+                           <option>Qytetet</option>
+                           <option>Ferizaj</option>
+                           <option>Prishtine</option>
+                           <option>Prizren</option>
+                           <option>Londer</option>
+                           <option>Shambahall</option>
+                        </select><!-- /.cities -->
+                     </div>
+                     <div class="col-md-6">
+                        <select id="neighborhood" class="form-control">
+                           <option>Lagjja</option>
+                           <option>Dardania</option>
+                           <option>Kurrizi</option>
+                           <option>Shpina</option>
+                           <option>Tre Sheshirat</option>
+                           <option>Bregu Dielit</option>
+                        </select><!-- /.neighborhoods -->
+                     </div>
+                     <div class="col-md-6">
+                        <div class="radios">
+                           <label class="radio-btn current" for="mon">M
+                              <input type="radio" name="days" id="mon">
+                           </label>
+                           <label class="radio-btn" for="tue">T
+                              <input type="radio" name="days" id="tue">
+                           </label>
+                           <label class="radio-btn" for="wen">   
+                              <input type="radio" name="days" id="wen">W
+                           </label>
+                           <label class="radio-btn" for="the">
+                              <input type="radio" name="days" id="the">T
+                           </label>
+                           <label class="radio-btn" for="fri">
+                              <input type="radio" name="days" id="fri">F
+                           </label>
+                           <label class="radio-btn" for="sat">
+                              <input type="radio" name="days" id="sat">S
+                           </label>
+                           <label class="radio-btn" for="sun">
+                              <input type="radio" name="days" id="sun">S
+                           </label>
+                        </div><!-- /.radios -->
+                     </div>
+                     <div class="col-md-6">
+                        <button class="btn btn-primary submit-button"  type="submit">Kerko</button>
+                     </div>
+                  </form>
+                  <div class="theMpa">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46940.336870526655!2d21.15992545!3d42.6662068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ee605110927%3A0x9365bfdf385eb95a!2sPristina!5e0!3m2!1sen!2s!4v1406646939211" width="100%" height="350" frameborder="0" style="border:0"></iframe>
+                  </div>
+                  <div class="table-responsive table-results">
+                     <table class="table">
+                       <thead>
+                         <tr>
+                           <th>#</th>
+                           <th>Table heading</th>
+                           <th>Table heading</th>
+                           <th>Table heading</th>
+                           <th>Table heading</th>
+                           <th>Table heading</th>
+                         </tr>
+                       </thead>
+                       <tbody>
+                         <tr>
+                           <td>1</td>
+                           <td>Table cell</td>
+                           <td>Table cell</td>
+                           <td>Table cell</td>
+                           <td>Table cell</td>
+                           <td>Table cell</td>
+                         </tr>
+                         <tr>
+                           <td>2</td>
+                           <td>Table cell</td>
+                           <td>Table cell</td>
+                           <td>Table cell</td>
+                           <td>Table cell</td>
+                           <td>Table cell</td>
+                         </tr>
+                         <tr>
+                           <td>3</td>
+                           <td>Table cell</td>
+                           <td>Table cell</td>
+                           <td>Table cell</td>
+                           <td>Table cell</td>
+                           <td>Table cell</td>
+                         </tr>
+                       </tbody>
+                     </table><!-- /.table -->
+                  </div><!-- /.table-responsive table-results -->
+                  <div class="col-md-12">
+                     <button class="btn btn-primary submit-button"  type="submit">Me Shume</button>
+                  </div>
+               </div> <!-- /.content -->
+            <div class="col-md-1"></div> 
+         </div>
+      </div><!-- /.full -->   
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+         <!-- Include all compiled plugins (below), or include individual files as needed -->
+         <script src="inc/js/bootstrap.min.js"></script>
+                  <script type="text/javascript">
+                                 //script to set active class at active link on main navbar
+                                 $(document).ready(function() {
+                                   $(".radio-btn").click(function() {
+                                     $(".radio-btn").removeClass("current");
+                                     $(this).addClass("current"); 
+                                   });
+                                 });
+                              </script>
+      </body>
+</html>
